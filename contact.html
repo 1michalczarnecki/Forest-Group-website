@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MCreate" />
+    <meta name="robots" content="index follow max-image-preview:standard" />
+    <title>
+        Najpiękniejsze parki | Forest Group
+    </title>
+    <meta name="description"
+        content="Najpiękniejsze parki - Forest Group" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/hamburger.min.css" />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+
+    <script src="https://kit.fontawesome.com/33c5fd1d75.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__logo">
+            <a href="index.html"><i class="fa-solid fa-tree"></i> Forest</a>
+        </div>
+
+        <div class="nav__mobile">
+            <div class="nav__items">
+                <a href="index.html">Home</a>
+                <a href="index.html#aboutus">O nas</a>
+                <a href="index.html#offer">Oferta</a>
+                <a href="contact.html">Kontakt</a>
+            </div>
+        </div>
+
+        <button class="hamburger hamburger--spring" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <div class="wrapper nav__desktop">
+            <div class="nav__logo-desktop">
+                <a href="index.html"><i class="fa-solid fa-tree"></i> Forest</a>
+            </div>
+
+            <div class="nav__desktop-items">
+                <a href="index.html#home" class="nav__desktop-item nav__desktop-item--active">Home</a>
+                <a href="index.html#aboutus" class="nav__desktop-item">O nas</a>
+                <a href="index.html#offer" class="nav__desktop-item">Oferta</a>
+                <a href="contact.html" class="nav__desktop-item">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero__img" id="home">
+        <div class="hero__txt wrapper">
+            <p>Forest Group</p>
+            <h1>Najpiękniejszy park w Twojej okolicy!</h1>
+        </div>
+        <div class="hero__shadow"></div>
+    </header>
+
+    <main>
+
+        <section class="aboutus" id="contact">
+            <div class="wrapper">
+                <h2 class="section-title">Kontakt</h2>
+
+                <div class="aboutus__box-contacts">
+                    <div class="aboutus__box-form">
+                        <h3 class="aboutus__title">Formularz kontakowy</h3>
+
+
+                        <form>
+
+                            <div class="form__box">
+                                <label for="username">Nazwa użytkownika: </label>
+                                <input type="text" id="username" placeholder="Podaj nazwę użytkownika" />
+                                <p class="error-text">error</p>
+
+                            </div>
+
+
+                            <div class="form__box">
+                                <label for="email">Adres e-mail: </label>
+                                <input type="email" id="email" placeholder="Podaj adres e-mail" />
+                                <p class="error-text">error</p>
+                            </div>
+
+                            <div class="form__box">
+                                <label for="msg">Twoja wiadomość</label>
+                                <textarea name="msg" id="msg" placeholder="Napisz swoja wiadomość..."></textarea>
+                                <p class="error-text">error</p>
+                            </div>
+
+                            <div class="control-buttons">
+                                <button class="clear offer__card-btn">Wyczyść</button>
+                                <button class="send offer__card-btn offer__card-btn--highlight">Wyślij</button>
+                            </div>
+
+                            <div class="popup ">
+                                <p>Formularz został poprawnie wysłany 👌</p>
+                                <button class="close">Zamknij</button>
+                            </div>
+                    </div>
+                    </form>
+
+
+                    <div class="aboutus__box-form">
+                        <h3 class="aboutus__title">Gdzie nas znajdziesz?</h3>
+                        <div class="aboutus__map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10239.592929627293!2d19.8928442!3d50.0881922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1698236753952!5m2!1spl!2spl"
+                                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="wrapper">
+            <div class="aboutus__contact">
+                <div class="aboutus__contact-details">
+                    <p>
+                        <i class="fa-solid fa-phone"></i><span> Phone:</span>
+                        <a href="tel:+48 731 911 160">731 911 160</a>
+                    </p>
+
+                </div>
+                <div class="aboutus__contact-details">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i><span> Email:</span>
+                        <a href="mailto:1michalczarnecki@gmail.com">1michalczarnecki@gmail.com</a>
+                    </p>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box-logo">
+                    <i class="fa-solid fa-tree"></i> Forest
+                </div>
+
+                <div class="footer__box">
+                    <div class="footer__box-info">
+                        <h3 class="footer__box-title">O nas</h3>
+                        <ul class="footer__box-list">
+                            <li class="footer__box-item"><a href="#">Historia</a></li>
+                            <li class="footer__box-item"><a href="#">Parki</a></li>
+                            <li class="footer__box-item"><a href="#">Opinie</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__box-info">
+                        <h3 class="footer__box-title">Nasza firma</h3>
+                        <ul class="footer__box-list">
+                            <li class="footer__box-item"><a href="#">Praca</a></li>
+                            <li class="footer__box-item"><a href="#">Kadry</a></li>
+                            <li class="footer__box-item"><a href="#">Zarząd</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__box-info">
+                        <h3 class="footer__box-title">Dokumenty</h3>
+                        <ul class="footer__box-list">
+                            <li class="footer__box-item"><a href="#">Wnioski</a></li>
+                            <li class="footer__box-item"><a href="#">Rezerwacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="footer-text">
+            &copy; <span class="footer__year"></span> Forest Group Company Ltd. | M<i class="fa-regular fa-copyright"></i>reate
+        </p>
+    </footer>
+
+
+    <script src="dist/js/main.min.js"></script>
+    <script src="dist/js/form_validator.min.js"></script>
+</body>
+
+</html>
